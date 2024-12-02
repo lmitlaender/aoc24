@@ -5,3 +5,10 @@ edition = "2021"
 build = "build.rs"
 
 [dependencies]
+dhat = "0.3.3"
+
+[profile.release]
+debug = 1
+
+[features]
+dhat-heap = []

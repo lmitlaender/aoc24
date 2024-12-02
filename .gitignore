@@ -22,3 +22,5 @@ Cargo.lock
 
 # AoC inputs
 inputs/
+
+dhat-heap.json
