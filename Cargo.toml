@@ -6,6 +6,8 @@ build = "build.rs"
 
 [dependencies]
 dhat = "0.3.3"
+regex = "1.11.1"
+regex-automata = "0.4.9"
 
 [profile.release]
 debug = 1
